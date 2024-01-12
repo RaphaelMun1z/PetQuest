@@ -21,7 +21,7 @@ nav {
             object-fit: contain;
         }
 
-        h2{
+        h2 {
             font-size: 25pt;
             color: #fff;
         }
@@ -41,24 +41,35 @@ nav {
             display: flex;
             height: fit-content;
             width: fit-content;
+        }
 
-            a {
-                position: relative;
-                display: flex;
-                height: fit-content;
-                width: fit-content;
-                background-color: #fff;
-                border-radius: 10px;
-                padding: .5em 1em;
-                color: rgb(185, 121, 4);
-                text-decoration: none;
-                font-weight: 600;
-                box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
+        .link {
+            position: relative;
+            display: flex;
+            height: fit-content;
+            width: fit-content;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: .5em 1em;
+            color: rgb(185, 121, 4);
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.35) 1.95px 1.95px 2.6px;
 
-                &:hover{
-                    opacity: .5;
-                }
+            &:hover {
+                opacity: .5;
             }
+        }
+
+        .login {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .logout{
+            color: #fff;
+            background-color: #c82333;
         }
     }
 }
