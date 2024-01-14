@@ -23,6 +23,12 @@ function Navbar() {
                 {authenticated ? (
                     <>
                         <li>
+                            <Link to="/pet/myadoptions" className={`${styles.link}`}>Minhas doações</Link>
+                        </li>
+                        <li>
+                            <Link to="/pet/mypets" className={`${styles.link}`}>Meus Pets</Link>
+                        </li>
+                        <li>
                             <Link to="/user/profile" className={`${styles.link}`}>Perfil</Link>
                         </li>
                         <li onClick={logout} className={`${styles.link} ${styles.logout}`}>Sair</li>
